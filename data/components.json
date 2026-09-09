@@ -1,0 +1,2138 @@
+[
+  {
+    "id": "motion-primitives:accordion",
+    "source": "Motion Primitives",
+    "name": "accordion",
+    "title": "Accordion",
+    "description": "A vertically stacked set of collapsible containers allowing users to toggle content visibility. Customize the animation effects with variants and transitions for expanding/collapsing the sections. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "克制产品"
+    ],
+    "files": [
+      "components/core/accordion.tsx"
+    ],
+    "docFile": "app/docs/accordion/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/accordion",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/accordion.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:animated-background",
+    "source": "Motion Primitives",
+    "name": "animated-background",
+    "title": "Animated Background",
+    "description": "Visually highlights selected items by sliding a background into view when hovered over or clicked. This smooth transition helps users focus on the active item, making it ideal for interactive lists, menus, or navigations where clear selection feedback is important. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/animated-background.tsx"
+    ],
+    "docFile": "app/docs/animated-background/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/animated-background",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/animated-background.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:animated-group",
+    "source": "Motion Primitives",
+    "name": "animated-group",
+    "title": "Animated Group",
+    "description": "`A wrapper that adds animated transitions to a group of child elements. It",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/animated-group.tsx"
+    ],
+    "docFile": "app/docs/animated-group/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/animated-group",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/animated-group.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:animated-number",
+    "source": "Motion Primitives",
+    "name": "animated-number",
+    "title": "Animated Number",
+    "description": "Easily animate numbers. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品"
+    ],
+    "files": [
+      "components/core/animated-number.tsx"
+    ],
+    "docFile": "app/docs/animated-number/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/animated-number",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/animated-number.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:border-trail",
+    "source": "Motion Primitives",
+    "name": "border-trail",
+    "title": "Border Trail",
+    "description": "Animated border effect that moves along the edges of its parent container. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/border-trail.tsx"
+    ],
+    "docFile": "app/docs/border-trail/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/border-trail",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/border-trail.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:carousel",
+    "source": "Motion Primitives",
+    "name": "carousel",
+    "title": "Carousel",
+    "description": "A flexible and easy-to-use carousel with customizable navigation and indicators. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/carousel.tsx"
+    ],
+    "docFile": "app/docs/carousel/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/carousel",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/carousel.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:cursor",
+    "source": "Motion Primitives",
+    "name": "cursor",
+    "title": "Cursor",
+    "description": "A custom cursor component with optional spring animations. It can be globally applied to the page or attached specifically to a parent element. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/cursor.tsx"
+    ],
+    "docFile": "app/docs/cursor/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/cursor",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/cursor.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:dialog",
+    "source": "Motion Primitives",
+    "name": "dialog",
+    "title": "Dialog",
+    "description": "A window overlaid on either the primary window or another dialog window, rendering the content underneath inert. Customize the dialog with variants and transition. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "浮层与转换",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/dialog.tsx"
+    ],
+    "docFile": "app/docs/dialog/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/dialog",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/dialog.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:disclosure",
+    "source": "Motion Primitives",
+    "name": "disclosure",
+    "title": "Disclosure",
+    "description": "The Disclosure component allows users to toggle the visibility of content, either collapsed or expanded. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "克制产品"
+    ],
+    "files": [
+      "components/core/disclosure.tsx"
+    ],
+    "docFile": "app/docs/disclosure/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/disclosure",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/disclosure.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:dock",
+    "source": "Motion Primitives",
+    "name": "dock",
+    "title": "Dock",
+    "description": "A versatile UI element that provides a flexible and customizable way to organize and display menu items within your application. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "files": [
+      "components/core/dock.tsx"
+    ],
+    "docFile": "app/docs/dock/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/dock",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/dock.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:glow-effect",
+    "source": "Motion Primitives",
+    "name": "glow-effect",
+    "title": "Glow Effect",
+    "description": "A customizable glow effect with animation modes, colors, blur-sm, and transitions. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "科技高光",
+      "克制产品"
+    ],
+    "files": [
+      "components/core/glow-effect.tsx"
+    ],
+    "docFile": "app/docs/glow-effect/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/glow-effect",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/glow-effect.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:image-comparison",
+    "source": "Motion Primitives",
+    "name": "image-comparison",
+    "title": "Image Comparison",
+    "description": "Interactively compare two images with a draggable slider to reveal differences. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/image-comparison.tsx"
+    ],
+    "docFile": "app/docs/image-comparison/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/image-comparison",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/image-comparison.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:in-view",
+    "source": "Motion Primitives",
+    "name": "in-view",
+    "title": "In View",
+    "description": "Easily animate elements when they come into view. You can apply animations to elements when they enter the viewport, or when they are fully visible. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "滚动交互",
+    "styleTags": [
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/in-view.tsx"
+    ],
+    "docFile": "app/docs/in-view/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/in-view",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/in-view.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:infinite-slider",
+    "source": "Motion Primitives",
+    "name": "infinite-slider",
+    "title": "Infinite Slider",
+    "description": "Infinite scrolling slider component that smoothly loops through its children. It supports both horizontal and vertical directions, with customizable speed and speed on hover. Ideal for creating continuous carousels, marquee displays, or dynamic content showcases. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "滚动交互",
+    "styleTags": [
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/infinite-slider.tsx"
+    ],
+    "docFile": "app/docs/infinite-slider/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/infinite-slider",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/infinite-slider.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:magnetic",
+    "source": "Motion Primitives",
+    "name": "magnetic",
+    "title": "Magnetic",
+    "description": "A magnetic effect for elements that allows them to be attracted to the mouse cursor. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/magnetic.tsx"
+    ],
+    "docFile": "app/docs/magnetic/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/magnetic",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/magnetic.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:morphing-dialog",
+    "source": "Motion Primitives",
+    "name": "morphing-dialog",
+    "title": "Morphing Dialog",
+    "description": "A dialog that uses layout animations to transition content into a focused view. It supports click-outside and escape key functionalities for closing. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "浮层与转换",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/morphing-dialog.tsx"
+    ],
+    "docFile": "app/docs/morphing-dialog/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/morphing-dialog",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/morphing-dialog.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:morphing-popover",
+    "source": "Motion Primitives",
+    "name": "morphing-popover",
+    "title": "Morphing Popover",
+    "description": "A popover that transforms from its trigger into the content using layout animations. It visually morphs instead of appearing as a separate element. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "浮层与转换",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/morphing-popover.tsx"
+    ],
+    "docFile": "app/docs/morphing-popover/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/morphing-popover",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/morphing-popover.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:progressive-blur",
+    "source": "Motion Primitives",
+    "name": "progressive-blur",
+    "title": "Progressive Blur",
+    "description": "A Progressive Blur component creates a layered blur effect using motion and gradient masks. It progressively blurs layers based on direction and intensity, adding visual depth. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "克制产品"
+    ],
+    "files": [
+      "components/core/progressive-blur.tsx"
+    ],
+    "docFile": "app/docs/progressive-blur/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/progressive-blur",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/progressive-blur.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:scroll-progress",
+    "source": "Motion Primitives",
+    "name": "scroll-progress",
+    "title": "Scroll Progress",
+    "description": "Animated scroll progress for your web pages. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "滚动交互",
+    "styleTags": [
+      "克制产品"
+    ],
+    "files": [
+      "components/core/scroll-progress.tsx"
+    ],
+    "docFile": "app/docs/scroll-progress/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/scroll-progress",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/scroll-progress.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:sliding-number",
+    "source": "Motion Primitives",
+    "name": "sliding-number",
+    "title": "Sliding Number",
+    "description": "A component that slides numbers. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品"
+    ],
+    "files": [
+      "components/core/sliding-number.tsx"
+    ],
+    "docFile": "app/docs/sliding-number/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/sliding-number",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/sliding-number.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:spinning-text",
+    "source": "Motion Primitives",
+    "name": "spinning-text",
+    "title": "Spinning Text",
+    "description": "Easily animate text circularly. Customize the animation with variants and transitions. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/spinning-text.tsx"
+    ],
+    "docFile": "app/docs/spinning-text/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/spinning-text",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/spinning-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:spotlight",
+    "source": "Motion Primitives",
+    "name": "spotlight",
+    "title": "Spotlight",
+    "description": "A dynamic spotlight effect component that follows cursor movement. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "科技高光"
+    ],
+    "files": [
+      "components/core/spotlight.tsx"
+    ],
+    "docFile": "app/docs/spotlight/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/spotlight",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/spotlight.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:text-effect",
+    "source": "Motion Primitives",
+    "name": "text-effect",
+    "title": "Text Effect",
+    "description": "Easily animate text content with various effects. You can apply animations per character or per word, and customize the animation effects using custom variants or preset animations. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/text-effect.tsx"
+    ],
+    "docFile": "app/docs/text-effect/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/text-effect",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-effect.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:text-loop",
+    "source": "Motion Primitives",
+    "name": "text-loop",
+    "title": "Text Loop",
+    "description": "Text animation that transitions between multiple items, creating an engaging looping effect. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/text-loop.tsx"
+    ],
+    "docFile": "app/docs/text-loop/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/text-loop",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-loop.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:text-morph",
+    "source": "Motion Primitives",
+    "name": "text-morph",
+    "title": "Text Morph",
+    "description": "Animates text by morphing shared letters between words, creating fluid transitions. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/text-morph.tsx"
+    ],
+    "docFile": "app/docs/text-morph/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/text-morph",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-morph.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:text-roll",
+    "source": "Motion Primitives",
+    "name": "text-roll",
+    "title": "Text Roll",
+    "description": "A text roll component that rotates each character, fully customizable for nice text animations. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/text-roll.tsx"
+    ],
+    "docFile": "app/docs/text-roll/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/text-roll",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-roll.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:text-scramble",
+    "source": "Motion Primitives",
+    "name": "text-scramble",
+    "title": "Text Scramble",
+    "description": "Text animation that transforms text by randomly cycling through characters before settling on the final content, creating an engaging cryptographic effect. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/text-scramble.tsx"
+    ],
+    "docFile": "app/docs/text-scramble/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/text-scramble",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-scramble.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:text-shimmer-wave",
+    "source": "Motion Primitives",
+    "name": "text-shimmer-wave",
+    "title": "Text Shimmer Wave",
+    "description": "Shimmer wave effect on text. Easily adjust the wave effect, spread, duration, and more. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/text-shimmer-wave.tsx"
+    ],
+    "docFile": "app/docs/text-shimmer-wave/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/text-shimmer-wave",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-shimmer-wave.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:text-shimmer",
+    "source": "Motion Primitives",
+    "name": "text-shimmer",
+    "title": "Text Shimmer",
+    "description": "Shimmer effect on text. Easily adjust the duration and the spread of the shimmer effect. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "files": [
+      "components/core/text-shimmer.tsx"
+    ],
+    "docFile": "app/docs/text-shimmer/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/text-shimmer",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-shimmer.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:tilt",
+    "source": "Motion Primitives",
+    "name": "tilt",
+    "title": "Tilt",
+    "description": "3D tilt effect that responds to mouse movement, enhancing UI elements with a dynamic depth effect, customizable rotation factors and spring options. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "空间拟物"
+    ],
+    "files": [
+      "components/core/tilt.tsx"
+    ],
+    "docFile": "app/docs/tilt/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/tilt",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/tilt.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:toolbar-dynamic",
+    "source": "Motion Primitives",
+    "name": "toolbar-dynamic",
+    "title": "Toolbar Dynamic",
+    "description": "Adjusts width dynamically to accommodate varying tool requirements. Starts small and expands to offer more tools as needed. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/toolbar-dynamic.tsx"
+    ],
+    "docFile": "app/docs/toolbar-dynamic/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/toolbar-dynamic",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/toolbar-dynamic.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:toolbar-expandable",
+    "source": "Motion Primitives",
+    "name": "toolbar-expandable",
+    "title": "Toolbar Expandable",
+    "description": "Changes height based on content, expanding to display more tools and shrinking to save space. Keeps your screen organized and efficient. Built for React, Next.js, and Tailwind CSS.",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/toolbar-expandable.tsx"
+    ],
+    "docFile": "app/docs/toolbar-expandable/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/toolbar-expandable",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/toolbar-expandable.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "motion-primitives:transition-panel",
+    "source": "Motion Primitives",
+    "name": "transition-panel",
+    "title": "Transition Panel",
+    "description": "Easy way to switch between different pieces of content with enter and exit animations. It",
+    "interactionType": "浮层与转换",
+    "styleTags": [
+      "通用"
+    ],
+    "files": [
+      "components/core/transition-panel.tsx"
+    ],
+    "docFile": "app/docs/transition-panel/page.mdx",
+    "docsUrl": "https://motion-primitives.com/docs/transition-panel",
+    "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/transition-panel.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:magic-card",
+    "source": "Magic UI",
+    "name": "magic-card",
+    "title": "Magic Card",
+    "description": "A spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/magic-card.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/magic-card",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/magic-card.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:android",
+    "source": "Magic UI",
+    "name": "android",
+    "title": "Android",
+    "description": "A mockup of an Android device.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "空间拟物"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/android.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/android",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/android.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:warp-background",
+    "source": "Magic UI",
+    "name": "warp-background",
+    "title": "Warp Background",
+    "description": "A card with a time warping background effect.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/warp-background.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/warp-background",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/warp-background.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:line-shadow-text",
+    "source": "Magic UI",
+    "name": "line-shadow-text",
+    "title": "Line Shadow Text",
+    "description": "A text component with a moving line shadow.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/line-shadow-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/line-shadow-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/line-shadow-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:aurora-text",
+    "source": "Magic UI",
+    "name": "aurora-text",
+    "title": "Aurora Text",
+    "description": "A beautiful aurora text effect",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "科技高光",
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/aurora-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/aurora-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/aurora-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:morphing-text",
+    "source": "Magic UI",
+    "name": "morphing-text",
+    "title": "Morphing Text",
+    "description": "A dynamic text morphing component for Magic UI.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/morphing-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/morphing-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/morphing-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:scroll-progress",
+    "source": "Magic UI",
+    "name": "scroll-progress",
+    "title": "Scroll Progress",
+    "description": "Animated Scroll Progress for your pages",
+    "interactionType": "滚动交互",
+    "styleTags": [
+      "克制产品"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/scroll-progress.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/scroll-progress",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/scroll-progress.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:lens",
+    "source": "Magic UI",
+    "name": "lens",
+    "title": "Lens",
+    "description": "A interactive component that enables zooming into images, videos and other elements.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/lens.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/lens",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/lens.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:pointer",
+    "source": "Magic UI",
+    "name": "pointer",
+    "title": "Pointer",
+    "description": "A component that displays a pointer when hovering over an element",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/pointer.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/pointer",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/pointer.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:smooth-cursor",
+    "source": "Magic UI",
+    "name": "smooth-cursor",
+    "title": "Smooth Cursor",
+    "description": "A customizable, physics-based smooth cursor animation component with spring animations and rotation effects",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "framer-motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/smooth-cursor.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/smooth-cursor",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/smooth-cursor.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:progressive-blur",
+    "source": "Magic UI",
+    "name": "progressive-blur",
+    "title": "Progressive Blur",
+    "description": "The Progressive Blur component adds a smooth blur gradient effect to scrollable content, indicating more content below or above.",
+    "interactionType": "滚动交互",
+    "styleTags": [
+      "克制产品"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/progressive-blur.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/progressive-blur",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/progressive-blur.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:neon-gradient-card",
+    "source": "Magic UI",
+    "name": "neon-gradient-card",
+    "title": "Neon Gradient Card",
+    "description": "A beautiful neon card effect",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/neon-gradient-card.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/neon-gradient-card",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/neon-gradient-card.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:meteors",
+    "source": "Magic UI",
+    "name": "meteors",
+    "title": "Meteors",
+    "description": "A meteor shower effect.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/meteors.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/meteors",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/meteors.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:grid-pattern",
+    "source": "Magic UI",
+    "name": "grid-pattern",
+    "title": "Grid Pattern",
+    "description": "A background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/grid-pattern.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/grid-pattern",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/grid-pattern.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:striped-pattern",
+    "source": "Magic UI",
+    "name": "striped-pattern",
+    "title": "Striped Pattern",
+    "description": "A background striped pattern made with SVGs, fully customizable using Tailwind CSS.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/striped-pattern.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/striped-pattern",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/striped-pattern.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:interactive-grid-pattern",
+    "source": "Magic UI",
+    "name": "interactive-grid-pattern",
+    "title": "Interactive Grid Pattern",
+    "description": "A interactive background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/interactive-grid-pattern.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/interactive-grid-pattern",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/interactive-grid-pattern.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:dot-pattern",
+    "source": "Magic UI",
+    "name": "dot-pattern",
+    "title": "Dot Pattern",
+    "description": "A background dot pattern made with SVGs, fully customizable using Tailwind CSS.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/dot-pattern.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/dot-pattern",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/dot-pattern.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:flickering-grid",
+    "source": "Magic UI",
+    "name": "flickering-grid",
+    "title": "Flickering Grid",
+    "description": "A flickering grid background made with SVGs, fully customizable using Tailwind CSS.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/flickering-grid.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/flickering-grid",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/flickering-grid.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:hero-video-dialog",
+    "source": "Magic UI",
+    "name": "hero-video-dialog",
+    "title": "Hero Video Dialog",
+    "description": "A hero video dialog component.",
+    "interactionType": "浮层与转换",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/hero-video-dialog.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/hero-video-dialog",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/hero-video-dialog.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:code-comparison",
+    "source": "Magic UI",
+    "name": "code-comparison",
+    "title": "Code Comparison",
+    "description": "A component which compares two code snippets.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "shiki",
+      "next-themes"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/code-comparison.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/code-comparison",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/code-comparison.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:script-copy-btn",
+    "source": "Magic UI",
+    "name": "script-copy-btn",
+    "title": "Script Copy Button",
+    "description": "Copy code to clipboard",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion",
+      "shiki",
+      "next-themes"
+    ],
+    "registryDependencies": [
+      "button"
+    ],
+    "files": [
+      "registry/magicui/script-copy-btn.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/script-copy-btn",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/script-copy-btn.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:marquee",
+    "source": "Magic UI",
+    "name": "marquee",
+    "title": "Marquee",
+    "description": "An infinite scrolling component that can be used to display text, images, or videos.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/marquee.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/marquee",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/marquee.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:glyph-matrix",
+    "source": "Magic UI",
+    "name": "glyph-matrix",
+    "title": "Glyph Matrix",
+    "description": "An animated grid of subtly shifting glyphs with fade effect and theme support.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/glyph-matrix.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/glyph-matrix",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/glyph-matrix.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:globe",
+    "source": "Magic UI",
+    "name": "globe",
+    "title": "Globe",
+    "description": "An autorotating, interactive, and highly performant globe made using WebGL.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "空间拟物"
+    ],
+    "dependencies": [
+      "cobe",
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/globe.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/globe",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/globe.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:shimmer-button",
+    "source": "Magic UI",
+    "name": "shimmer-button",
+    "title": "Shimmer Button",
+    "description": "A button with a shimmering light which travels around the perimeter.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/shimmer-button.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/shimmer-button",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/shimmer-button.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:tweet-card",
+    "source": "Magic UI",
+    "name": "tweet-card",
+    "title": "Tweet Card",
+    "description": "A card that displays a tweet with the author's name, handle, and profile picture.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "react-tweet"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/tweet-card.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/tweet-card",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/tweet-card.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:client-tweet-card",
+    "source": "Magic UI",
+    "name": "client-tweet-card",
+    "title": "Client Tweet Card",
+    "description": "A client-side version of the tweet card that displays a tweet with the author's name, handle, and profile picture.",
+    "interactionType": "卡片与展示",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "react-tweet"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/client-tweet-card.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/client-tweet-card",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/client-tweet-card.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:bento-grid",
+    "source": "Magic UI",
+    "name": "bento-grid",
+    "title": "Bento Grid",
+    "description": "Bento grid is a layout used to showcase the features of a product in a simple and elegant way.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [
+      "@radix-ui/react-icons"
+    ],
+    "registryDependencies": [
+      "button"
+    ],
+    "files": [
+      "registry/magicui/bento-grid.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/bento-grid",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/bento-grid.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:particles",
+    "source": "Magic UI",
+    "name": "particles",
+    "title": "Particles",
+    "description": "Particles are a fun way to add some visual flair to your website. They can be used to create a sense of depth, movement, and interactivity.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/particles.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/particles",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/particles.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:number-ticker",
+    "source": "Magic UI",
+    "name": "number-ticker",
+    "title": "Number Ticker",
+    "description": "Animate numbers to count up or down to a target number",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/number-ticker.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/number-ticker",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/number-ticker.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:ripple",
+    "source": "Magic UI",
+    "name": "ripple",
+    "title": "Ripple",
+    "description": "An animated ripple effect typically used behind elements to emphasize them.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/ripple.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/ripple",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/ripple.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:retro-grid",
+    "source": "Magic UI",
+    "name": "retro-grid",
+    "title": "Retro Grid",
+    "description": "An animated scrolling retro grid effect",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/retro-grid.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/retro-grid",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/retro-grid.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-list",
+    "source": "Magic UI",
+    "name": "animated-list",
+    "title": "Animated List",
+    "description": "A list that animates each item in sequence with a delay. Used to showcase notifications or events on your landing page.",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-list.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-list",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-list.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-shiny-text",
+    "source": "Magic UI",
+    "name": "animated-shiny-text",
+    "title": "Animated Shiny Text",
+    "description": "A light glare effect which pans across text making it appear as if it is shimmering.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-shiny-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-shiny-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-shiny-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-grid-pattern",
+    "source": "Magic UI",
+    "name": "animated-grid-pattern",
+    "title": "Animated Grid Pattern",
+    "description": "A animated background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-grid-pattern.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-grid-pattern",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-grid-pattern.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:border-beam",
+    "source": "Magic UI",
+    "name": "border-beam",
+    "title": "Border Beam",
+    "description": "An animated beam of light which travels along the border of its container.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/border-beam.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/border-beam",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/border-beam.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-beam",
+    "source": "Magic UI",
+    "name": "animated-beam",
+    "title": "Animated Beam",
+    "description": "An animated beam of light which travels along a path. Useful for showcasing the integration features of a website.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-beam.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-beam",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-beam.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:text-reveal",
+    "source": "Magic UI",
+    "name": "text-reveal",
+    "title": "Text Reveal",
+    "description": "Fade in text as you scroll down the page.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/text-reveal.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/text-reveal",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/text-reveal.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:hyper-text",
+    "source": "Magic UI",
+    "name": "hyper-text",
+    "title": "Hyper Text",
+    "description": "A text animation that scrambles letters before revealing the final text.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/hyper-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/hyper-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/hyper-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-gradient-text",
+    "source": "Magic UI",
+    "name": "animated-gradient-text",
+    "title": "Animated Gradient Text",
+    "description": "An animated gradient background which transitions between colors for text.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-gradient-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-gradient-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-gradient-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:orbiting-circles",
+    "source": "Magic UI",
+    "name": "orbiting-circles",
+    "title": "Orbiting Circles",
+    "description": "A collection of circles which move in orbit along a circular path",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/orbiting-circles.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/orbiting-circles",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/orbiting-circles.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:dock",
+    "source": "Magic UI",
+    "name": "dock",
+    "title": "Dock",
+    "description": "An implementation of the MacOS dock using react + tailwindcss + motion",
+    "interactionType": "导航与工具",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/dock.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/dock",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/dock.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:word-rotate",
+    "source": "Magic UI",
+    "name": "word-rotate",
+    "title": "Word Rotate",
+    "description": "A vertical rotation of words",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/word-rotate.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/word-rotate",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/word-rotate.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:avatar-circles",
+    "source": "Magic UI",
+    "name": "avatar-circles",
+    "title": "Avatar Circles",
+    "description": "Overlapping circles of avatars.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/avatar-circles.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/avatar-circles",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/avatar-circles.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:typing-animation",
+    "source": "Magic UI",
+    "name": "typing-animation",
+    "title": "Typing Animation",
+    "description": "Characters appearing in typed animation",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/typing-animation.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/typing-animation",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/typing-animation.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:sparkles-text",
+    "source": "Magic UI",
+    "name": "sparkles-text",
+    "title": "Sparkles Text",
+    "description": "A dynamic text that generates continuous sparkles with smooth transitions, perfect for highlighting text with animated stars.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/sparkles-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/sparkles-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/sparkles-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:spinning-text",
+    "source": "Magic UI",
+    "name": "spinning-text",
+    "title": "Spinning Text",
+    "description": "The Spinning Text component animates text in a circular motion with customizable speed, direction, color, and transitions for dynamic and engaging effects.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/spinning-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/spinning-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/spinning-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:flip-text",
+    "source": "Magic UI",
+    "name": "flip-text",
+    "title": "Flip Text",
+    "description": "Text flipping character animation",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/flip-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/flip-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/flip-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:comic-text",
+    "source": "Magic UI",
+    "name": "comic-text",
+    "title": "Comic Text",
+    "description": "Comic text animation",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/comic-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/comic-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/comic-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:icon-cloud",
+    "source": "Magic UI",
+    "name": "icon-cloud",
+    "title": "Icon Cloud",
+    "description": "An interactive 3D tag cloud component",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "空间拟物"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/icon-cloud.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/icon-cloud",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/icon-cloud.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:text-animate",
+    "source": "Magic UI",
+    "name": "text-animate",
+    "title": "Text Animate",
+    "description": "A text animation component that animates text using a variety of different animations.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/text-animate.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/text-animate",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/text-animate.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:scroll-based-velocity",
+    "source": "Magic UI",
+    "name": "scroll-based-velocity",
+    "title": "Scroll Based Velocity",
+    "description": "Scrolling text whose speed changes based on scroll speed",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/scroll-based-velocity.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/scroll-based-velocity",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/scroll-based-velocity.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:scratch-to-reveal",
+    "source": "Magic UI",
+    "name": "scratch-to-reveal",
+    "title": "Scratch To Reveal",
+    "description": "The ScratchToReveal component creates an interactive scratch-off effect with customizable dimensions and animations, revealing hidden content beneath.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "趣味触感",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/scratch-to-reveal.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/scratch-to-reveal",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/scratch-to-reveal.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:shiny-button",
+    "source": "Magic UI",
+    "name": "shiny-button",
+    "title": "Shiny Button",
+    "description": "A shiny button component with dynamic styles in the dark mode or light mode.",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/shiny-button.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/shiny-button",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/shiny-button.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:box-reveal",
+    "source": "Magic UI",
+    "name": "box-reveal",
+    "title": "Box Reveal Animation",
+    "description": "Sliding box animation that reveals text behind it.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/box-reveal.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/box-reveal",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/box-reveal.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:shine-border",
+    "source": "Magic UI",
+    "name": "shine-border",
+    "title": "Shine Border",
+    "description": "Shine border is an animated background border effect.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/shine-border.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/shine-border",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/shine-border.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-circular-progress-bar",
+    "source": "Magic UI",
+    "name": "animated-circular-progress-bar",
+    "title": "Animated Circular Progress Bar",
+    "description": "Animated Circular Progress Bar is a component that displays a circular gauge with a percentage value.",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "克制产品"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-circular-progress-bar.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-circular-progress-bar",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-circular-progress-bar.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:confetti",
+    "source": "Magic UI",
+    "name": "confetti",
+    "title": "Confetti",
+    "description": "Confetti animations are best used to delight your users when something special happens",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "dependencies": [
+      "canvas-confetti",
+      "@types/canvas-confetti"
+    ],
+    "registryDependencies": [
+      "button"
+    ],
+    "files": [
+      "registry/magicui/confetti.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/confetti",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/confetti.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-subscribe-button",
+    "source": "Magic UI",
+    "name": "animated-subscribe-button",
+    "title": "Animated Subscribe Button",
+    "description": "An animated subscribe button useful for showing a micro animation from intial to final result.",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-subscribe-button.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-subscribe-button",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-subscribe-button.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:cool-mode",
+    "source": "Magic UI",
+    "name": "cool-mode",
+    "title": "Cool Mode",
+    "description": "Cool mode effect for buttons, links, and other DOMs",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/cool-mode.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/cool-mode",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/cool-mode.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:pulsating-button",
+    "source": "Magic UI",
+    "name": "pulsating-button",
+    "title": "Pulsating Button",
+    "description": "An animated pulsating button useful for capturing attention of users.",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/pulsating-button.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/pulsating-button",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/pulsating-button.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:ripple-button",
+    "source": "Magic UI",
+    "name": "ripple-button",
+    "title": "Ripple Button",
+    "description": "An animated button with ripple useful for user engagement.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "趣味触感"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/ripple-button.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/ripple-button",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/ripple-button.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:file-tree",
+    "source": "Magic UI",
+    "name": "file-tree",
+    "title": "File Tree",
+    "description": "A component used to showcase the folder and file structure of a directory.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/file-tree.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/file-tree",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/file-tree.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:blur-fade",
+    "source": "Magic UI",
+    "name": "blur-fade",
+    "title": "Blur Fade",
+    "description": "Blur fade in and out animation. Used to smoothly fade in and out content.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "克制产品"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/blur-fade.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/blur-fade",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/blur-fade.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:safari",
+    "source": "Magic UI",
+    "name": "safari",
+    "title": "Safari",
+    "description": "A safari browser mockup to showcase your website.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "空间拟物"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/safari.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/safari",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/safari.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:iphone-15-pro",
+    "source": "Magic UI",
+    "name": "iphone-15-pro",
+    "title": "iPhone 15 Pro",
+    "description": "A mockup of the iPhone 15 Pro",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "空间拟物"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/iphone-15-pro.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/iphone-15-pro",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/iphone-15-pro.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:rainbow-button",
+    "source": "Magic UI",
+    "name": "rainbow-button",
+    "title": "Rainbow Button",
+    "description": "An animated button with a rainbow effect.",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/rainbow-button.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/rainbow-button",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/rainbow-button.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:interactive-hover-button",
+    "source": "Magic UI",
+    "name": "interactive-hover-button",
+    "title": "Interactive Hover Button",
+    "description": "",
+    "interactionType": "反馈与状态",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/interactive-hover-button.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/interactive-hover-button",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/interactive-hover-button.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:terminal",
+    "source": "Magic UI",
+    "name": "terminal",
+    "title": "Terminal",
+    "description": "A terminal component",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/terminal.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/terminal",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/terminal.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:video-text",
+    "source": "Magic UI",
+    "name": "video-text",
+    "title": "Video Text",
+    "description": "A component that displays text with a video playing in the background.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/video-text.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/video-text",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/video-text.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:pixel-image",
+    "source": "Magic UI",
+    "name": "pixel-image",
+    "title": "Pixel Image",
+    "description": "A component that displays an image with a pixelated effect, creating a retro aesthetic.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/pixel-image.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/pixel-image",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/pixel-image.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:highlighter",
+    "source": "Magic UI",
+    "name": "highlighter",
+    "title": "Highlighter",
+    "description": "A text highlighter that mimics the effect of a human-drawn marker stroke.",
+    "interactionType": "文字动效",
+    "styleTags": [
+      "克制产品",
+      "编辑叙事"
+    ],
+    "dependencies": [
+      "rough-notation"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/highlighter.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/highlighter",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/highlighter.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:arc-timeline",
+    "source": "Magic UI",
+    "name": "arc-timeline",
+    "title": "Arc Timeline",
+    "description": "A curved timeline that elegantly visualizes key milestones, perfect for Web3 and AI roadmaps.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/arc-timeline.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/arc-timeline",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/arc-timeline.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:animated-theme-toggler",
+    "source": "Magic UI",
+    "name": "animated-theme-toggler",
+    "title": "Theme Toggler",
+    "description": "A component for theme changing animation.",
+    "interactionType": "其他组件",
+    "styleTags": [
+      "通用"
+    ],
+    "dependencies": [
+      "lucide-react"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/animated-theme-toggler.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/animated-theme-toggler",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-theme-toggler.tsx",
+    "license": "MIT"
+  },
+  {
+    "id": "magicui:grid-beams",
+    "source": "Magic UI",
+    "name": "grid-beams",
+    "title": "Grid Beams",
+    "description": "A dynamic grid background with animated light beams rays and grid patterns.",
+    "interactionType": "背景氛围",
+    "styleTags": [
+      "科技高光"
+    ],
+    "dependencies": [
+      "motion"
+    ],
+    "registryDependencies": [],
+    "files": [
+      "registry/magicui/grid-beams.tsx"
+    ],
+    "docsUrl": "https://magicui.design/docs/components/grid-beams",
+    "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/grid-beams.tsx",
+    "license": "MIT"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-09-08T06:39:05.196Z",
+  "sources": [
+    {
+      "repository": "aladicf/better-web-ui",
+      "branch": "main",
+      "commit": "af21dcfa71d83104a9e0beb04ffedf79f800f53c",
+      "committedAt": "2026-05-21T16:17:16Z",
+      "archive": "https://codeload.github.com/aladicf/better-web-ui/zip/refs/heads/main"
+    },
+    {
+      "repository": "ibelick/motion-primitives",
+      "branch": "main",
+      "commit": "92586e62a951eb9b6bfd1cc7c8a4e6e2ab6ba17d",
+      "committedAt": "2026-03-19T14:09:01Z",
+      "archive": "https://codeload.github.com/ibelick/motion-primitives/zip/refs/heads/main"
+    },
+    {
+      "repository": "magicuidesign/magicui",
+      "branch": "main",
+      "commit": "1246d6d404c556f03867fc6d447f2867eee8a42b",
+      "committedAt": "2026-09-05T04:38:29Z",
+      "archive": "https://codeload.github.com/magicuidesign/magicui/zip/refs/heads/main"
+    }
+  ]
+}

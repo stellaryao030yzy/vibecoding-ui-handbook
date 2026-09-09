@@ -1,0 +1,2878 @@
+{
+  "generatedAt": "2026-09-08T06:38:45.828Z",
+  "sources": [
+    {
+      "id": "better-web-ui",
+      "root": "work/sources/better-web-ui-main",
+      "repository": "https://github.com/aladicf/better-web-ui",
+      "license": "Custom source-available",
+      "skillCount": 33
+    },
+    {
+      "id": "motion-primitives",
+      "root": "work/sources/motion-primitives-main",
+      "repository": "https://github.com/ibelick/motion-primitives",
+      "license": "MIT",
+      "componentCount": 33
+    },
+    {
+      "id": "magicui",
+      "root": "work/sources/magicui-main",
+      "repository": "https://github.com/magicuidesign/magicui",
+      "license": "MIT",
+      "componentCount": 75
+    }
+  ],
+  "totals": {
+    "betterSkills": 33,
+    "betterReferences": 172,
+    "motionComponents": 33,
+    "magicComponents": 75,
+    "mediaFiles": 27
+  },
+  "betterSkills": [
+    {
+      "id": "better-web-ui:a11y",
+      "source": "better-web-ui",
+      "name": "a11y",
+      "title": "A11y",
+      "description": "Systematically audit and remediate accessibility issues in UI, focusing on keyboard navigation, screen reader support, color contrast, semantic HTML, ARIA usage, and motion sensitivity. Use when the user wants to improve accessibility, make a component accessible, fix WCAG violations, add keyboard support, or ensure screen reader compatibility.",
+      "skillFile": "skills/a11y/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/a11y",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:adapt",
+      "source": "better-web-ui",
+      "name": "adapt",
+      "title": "Adapt",
+      "description": "Adapt designs for narrow, medium, wide, embedded, or print web contexts without losing usability, hierarchy, or target sizing. Use when the user mentions responsive design, breakpoints, narrow layouts, viewport changes, touch-capable browsers, or cross-context adaptation.",
+      "skillFile": "skills/adapt/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/adapt",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:add-ui",
+      "source": "better-web-ui",
+      "name": "add-ui",
+      "title": "Add Ui",
+      "description": "Generate 5 distinct, production-grade UI variations for a requested new or existing section, component, page, flow, or shell, then help the user preview and apply one. Use when the user asks to add or redesign UI like a hero, pricing, navbar, auth flow, dashboard shell, ecommerce surface, or data component.",
+      "skillFile": "skills/add-ui/SKILL.md",
+      "references": [
+        "skills/add-ui/reference/artifact-taxonomy.md",
+        "skills/add-ui/reference/component-library-integration.md",
+        "skills/add-ui/reference/examples.md",
+        "skills/add-ui/reference/preview-apply-patterns.md",
+        "skills/add-ui/reference/request-mapping.md",
+        "skills/add-ui/reference/requests/404-recovery.md",
+        "skills/add-ui/reference/requests/accessibility-hardening.md",
+        "skills/add-ui/reference/requests/auth-account-settings.md",
+        "skills/add-ui/reference/requests/cards-listings.md",
+        "skills/add-ui/reference/requests/commerce-flows.md",
+        "skills/add-ui/reference/requests/configurators-builders.md",
+        "skills/add-ui/reference/requests/content-surfaces.md",
+        "skills/add-ui/reference/requests/dashboard-data.md",
+        "skills/add-ui/reference/requests/data-tables.md",
+        "skills/add-ui/reference/requests/destructive-actions.md",
+        "skills/add-ui/reference/requests/error-page-recovery.md",
+        "skills/add-ui/reference/requests/error-states.md",
+        "skills/add-ui/reference/requests/faq-disclosures.md",
+        "skills/add-ui/reference/requests/feature-comparison.md",
+        "skills/add-ui/reference/requests/form-completion.md",
+        "skills/add-ui/reference/requests/forms-dates.md",
+        "skills/add-ui/reference/requests/hero-landing-cta.md",
+        "skills/add-ui/reference/requests/information-architecture.md",
+        "skills/add-ui/reference/requests/legacy-modernization.md",
+        "skills/add-ui/reference/requests/navigation-discovery.md",
+        "skills/add-ui/reference/requests/notifications-feeds.md",
+        "skills/add-ui/reference/requests/onboarding-activation.md",
+        "skills/add-ui/reference/requests/paywalls-upgrades.md",
+        "skills/add-ui/reference/requests/permissions-roles.md",
+        "skills/add-ui/reference/requests/pricing-comparison.md",
+        "skills/add-ui/reference/requests/search-findability.md",
+        "skills/add-ui/reference/requests/sidebar-footer.md",
+        "skills/add-ui/reference/variation-quality-bar.md"
+      ],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/add-ui",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:animate",
+      "source": "better-web-ui",
+      "name": "animate",
+      "title": "Animate",
+      "description": "Improve or implement purposeful motion systems, micro-interactions, gestures, and transition behavior for production-grade UI. Use when the user mentions animation, motion, transitions, micro-interactions, hover states, drawers, toasts, gestures, or making the UI feel more alive.",
+      "skillFile": "skills/animate/SKILL.md",
+      "references": [
+        "skills/animate/reference/animation-purpose.md",
+        "skills/animate/reference/asymmetric-press-release.md",
+        "skills/animate/reference/attribution-and-sources.md",
+        "skills/animate/reference/avoid-css-variables-drag.md",
+        "skills/animate/reference/blur-bridge-states.md",
+        "skills/animate/reference/button-press-scale-097.md",
+        "skills/animate/reference/clip-path-layout-free-reveals.md",
+        "skills/animate/reference/clip-path-tab-transitions.md",
+        "skills/animate/reference/custom-easing-curves.md",
+        "skills/animate/reference/damp-drag-boundaries.md",
+        "skills/animate/reference/drawer-500ms-duration.md",
+        "skills/animate/reference/ease-in-out-on-screen-movement.md",
+        "skills/animate/reference/ease-out-default.md",
+        "skills/animate/reference/easing-context.md",
+        "skills/animate/reference/entrance-animations.md",
+        "skills/animate/reference/exit-animations.md",
+        "skills/animate/reference/faster-improves-performance.md",
+        "skills/animate/reference/gesture-interactions.md",
+        "skills/animate/reference/hardware-accelerated-busy-main-thread.md",
+        "skills/animate/reference/hover-gap-fill.md",
+        "skills/animate/reference/immediate-feedback-actions.md",
+        "skills/animate/reference/interaction-frequency.md",
+        "skills/animate/reference/interruptible-animations.md",
+        "skills/animate/reference/marketing-exception.md",
+        "skills/animate/reference/micro-interactions.md",
+        "skills/animate/reference/momentum-dismissal.md",
+        "skills/animate/reference/never-scale-zero.md",
+        "skills/animate/reference/no-animation-for-keyboard.md",
+        "skills/animate/reference/opacity-reduced-motion-fallback.md",
+        "skills/animate/reference/origin-aware-animations.md",
+        "skills/animate/reference/percentage-translate-y.md",
+        "skills/animate/reference/pointer-capture.md",
+        "skills/animate/reference/preserve-3d-effects.md",
+        "skills/animate/reference/README.md",
+        "skills/animate/reference/reduced-motion-not-zero.md",
+        "skills/animate/reference/respect-reduced-motion.md",
+        "skills/animate/reference/scale-affects-children.md",
+        "skills/animate/reference/scroll-animation-threshold.md",
+        "skills/animate/reference/scroll-drag-conflicts.md",
+        "skills/animate/reference/sheet-drawer-easing.md",
+        "skills/animate/reference/spring-motion.md",
+        "skills/animate/reference/stagger-children-orchestration.md",
+        "skills/animate/reference/svg-path-morph-disclosure.md",
+        "skills/animate/reference/toast-stack-depth.md",
+        "skills/animate/reference/tooltip-delay-instant-followups.md",
+        "skills/animate/reference/transform-opacity-only.md",
+        "skills/animate/reference/ui-under-300ms.md",
+        "skills/animate/reference/upward-drag-friction.md",
+        "skills/animate/reference/use-reduced-motion-hook.md",
+        "skills/animate/reference/velocity-aware-snap-points.md",
+        "skills/animate/reference/will-change-subpixel-shift.md"
+      ],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/animate",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:arrange",
+      "source": "better-web-ui",
+      "name": "arrange",
+      "title": "Arrange",
+      "description": "Improve layout composition, spacing systems, grouping, and visual rhythm. Use when the user mentions weak layout structure, arbitrary spacing, weak grouping, crowded composition, or layout monotony rather than priority/emphasis problems.",
+      "skillFile": "skills/arrange/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/arrange",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:audit",
+      "source": "better-web-ui",
+      "name": "audit",
+      "title": "Audit",
+      "description": "Run technical quality checks across accessibility, performance, theming, responsive design, and anti-patterns. Generates a scored report with P0-P3 severity ratings and actionable plan. Use when the user wants measurable accessibility, performance, responsive, theming, or anti-pattern findings—not when they mainly want an overall UX critique or final visual/detail polish.",
+      "skillFile": "skills/audit/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/audit",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:bolder",
+      "source": "better-web-ui",
+      "name": "bolder",
+      "title": "Bolder",
+      "description": "Increase visual impact, contrast, personality, and compositional confidence when a design feels bland, generic, or too safe. Use when the design needs more energy, confidence, or memorability—not when the real problem is clutter, over-intensity, or micro-detail polish.",
+      "skillFile": "skills/bolder/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/bolder",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:clarify",
+      "source": "better-web-ui",
+      "name": "clarify",
+      "title": "Clarify",
+      "description": "Improve UX writing, marketing copy, labels, microcopy, instructions, and error messages so interfaces and product messaging are easier to understand and act on. Use when the user mentions confusing copy, unclear labels, bad error text, weak CTAs, hard-to-follow instructions, or wanting better UX writing.",
+      "skillFile": "skills/clarify/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/clarify",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:colorize",
+      "source": "better-web-ui",
+      "name": "colorize",
+      "title": "Colorize",
+      "description": "Build or refine UI color systems, warmth, semantic color, and color-based hierarchy in designs that are too gray, monochromatic, or missing color meaning. Use when the user mentions dull colors, gray UI, missing warmth, weak semantic color, or a need for stronger color hierarchy.",
+      "skillFile": "skills/colorize/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/colorize",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:critique",
+      "source": "better-web-ui",
+      "name": "critique",
+      "title": "Critique",
+      "description": "Evaluate an interface from a UX perspective, assessing hierarchy, information architecture, emotional resonance, cognitive load, and overall quality with quantitative scoring and actionable feedback. Use when the user wants an overall design or UX review—not when the main need is measurable accessibility/performance diagnosis, or final micro-detail polish.",
+      "skillFile": "skills/critique/SKILL.md",
+      "references": [
+        "skills/critique/reference/heuristics-scoring.md",
+        "skills/critique/reference/personas.md"
+      ],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/critique",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:data-viz",
+      "source": "better-web-ui",
+      "name": "data-viz",
+      "title": "Data Viz",
+      "description": "Design or improve data visualizations, charts, and data presentation interfaces. Use when the user asks to add charts, build dashboards, visualize data, choose chart types, make data accessible, or present metrics and analytics.",
+      "skillFile": "skills/data-viz/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/data-viz",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:delight",
+      "source": "better-web-ui",
+      "name": "delight",
+      "title": "Delight",
+      "description": "Add moments of joy, personality, and surprise through success states, empty states, loading moments, hover details, and celebratory polish once the fundamentals already work. Use when the user wants delight, charm, personality, or memorable micro-interactions—not when the main need is baseline cleanup or stronger visual impact.",
+      "skillFile": "skills/delight/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/delight",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:depth",
+      "source": "better-web-ui",
+      "name": "depth",
+      "title": "Depth",
+      "description": "Add or refine depth through elevation systems, raised and inset surfaces, layered overlap, and meaningful shadow behavior so interfaces feel structured instead of flat. Use when the user mentions depth, elevation, shadows, layering, flat cards, pressed states, drag feedback, or inset controls.",
+      "skillFile": "skills/depth/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/depth",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:distill",
+      "source": "better-web-ui",
+      "name": "distill",
+      "title": "Distill",
+      "description": "Simplify cluttered UI by removing unnecessary elements, choices, features, and structural complexity. Use when the problem is too many controls, options, features, or competing elements—not when the structure is sound and the real issue is only visual intensity or lack of personality.",
+      "skillFile": "skills/distill/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/distill",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:empty-state",
+      "source": "better-web-ui",
+      "name": "empty-state",
+      "title": "Empty State",
+      "description": "Design focused empty states for zero-data, no-results, permission, and error situations with clear value framing, strong CTAs, and less dead chrome. Use when the user mentions blank pages, zero-data screens, no results, permission states, or dead controls—not broader onboarding strategy.",
+      "skillFile": "skills/empty-state/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/empty-state",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:extract",
+      "source": "better-web-ui",
+      "name": "extract",
+      "title": "Extract",
+      "description": "Extract reusable components, product patterns, and design tokens into a clearer design system with shared APIs, documented defaults, and better reuse. Use when the user wants to refactor repeated UI, consolidate buttons/cards/forms/sections, build a component library, or turn one-off values into reusable tokens.",
+      "skillFile": "skills/extract/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/extract",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:forms",
+      "source": "better-web-ui",
+      "name": "forms",
+      "title": "Forms",
+      "description": "Design, structure, or improve form interfaces for clarity, completion rates, and user confidence. Use when the user asks to build a form, redesign a form flow, improve form conversion, add multi-step forms, fix form UX, or structure field layouts and validation.",
+      "skillFile": "skills/forms/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/forms",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:frontend-design",
+      "source": "better-web-ui",
+      "name": "frontend-design",
+      "title": "Frontend Design",
+      "description": "Create distinctive, production-grade frontend interfaces with strong hierarchy, thoughtful systems, and polished implementation that avoid generic AI aesthetics. Use when the user wants to build or redesign web pages, flows, components, or full app surfaces, or when another better-web-ui skill needs shared project design context before other better-web-ui skills.",
+      "skillFile": "skills/frontend-design/SKILL.md",
+      "references": [
+        "skills/frontend-design/reference/accessibility-testing.md",
+        "skills/frontend-design/reference/accordion-ux.md",
+        "skills/frontend-design/reference/action-hierarchy.md",
+        "skills/frontend-design/reference/ai-slop-detection.md",
+        "skills/frontend-design/reference/aspect-ratio-and-card-orientation.md",
+        "skills/frontend-design/reference/audience-sensitive-design.md",
+        "skills/frontend-design/reference/authentication-and-account-recovery.md",
+        "skills/frontend-design/reference/behavioral-design.md",
+        "skills/frontend-design/reference/breadcrumb-ux.md",
+        "skills/frontend-design/reference/carousel-ux.md",
+        "skills/frontend-design/reference/cognitive-load.md",
+        "skills/frontend-design/reference/collection-browsing-and-filtering.md",
+        "skills/frontend-design/reference/color-and-contrast.md",
+        "skills/frontend-design/reference/color-ramp-workflow.md",
+        "skills/frontend-design/reference/colorblindness-ux.md",
+        "skills/frontend-design/reference/complex-table-ux.md",
+        "skills/frontend-design/reference/component-accessibility.md",
+        "skills/frontend-design/reference/component-anatomy.md",
+        "skills/frontend-design/reference/component-and-block-strategy.md",
+        "skills/frontend-design/reference/configurator-ux.md",
+        "skills/frontend-design/reference/container-queries.md",
+        "skills/frontend-design/reference/copy-editing-sweeps.md",
+        "skills/frontend-design/reference/core-web-vitals.md",
+        "skills/frontend-design/reference/css-tailwind-and-waapi-motion.md",
+        "skills/frontend-design/reference/data-visualization.md",
+        "skills/frontend-design/reference/date-input-ux.md",
+        "skills/frontend-design/reference/date-time-picker-ux.md",
+        "skills/frontend-design/reference/design-directions.md",
+        "skills/frontend-design/reference/design-principles.md",
+        "skills/frontend-design/reference/design-process.md",
+        "skills/frontend-design/reference/design-system-alignment.md",
+        "skills/frontend-design/reference/destructive-action-ux.md",
+        "skills/frontend-design/reference/disabled-buttons-ux.md",
+        "skills/frontend-design/reference/ecommerce-ux.md",
+        "skills/frontend-design/reference/elevation-system.md",
+        "skills/frontend-design/reference/empty-state-patterns.md",
+        "skills/frontend-design/reference/error-recovery.md",
+        "skills/frontend-design/reference/expressive-directions.md",
+        "skills/frontend-design/reference/feature-comparison-ux.md",
+        "skills/frontend-design/reference/finishing-touches.md",
+        "skills/frontend-design/reference/form-validation-patterns.md",
+        "skills/frontend-design/reference/framework-defaults.md",
+        "skills/frontend-design/reference/framework-official-docs.md",
+        "skills/frontend-design/reference/hero-sections-ux.md",
+        "skills/frontend-design/reference/hierarchy-checklist.md",
+        "skills/frontend-design/reference/image-treatment.md",
+        "skills/frontend-design/reference/information-architecture-ux.md",
+        "skills/frontend-design/reference/interaction-design.md",
+        "skills/frontend-design/reference/interface-honesty.md",
+        "skills/frontend-design/reference/language-and-locale-selection.md",
+        "skills/frontend-design/reference/legacy-modernization.md",
+        "skills/frontend-design/reference/live-validation-ux.md",
+        "skills/frontend-design/reference/loading-feedback-and-perceived-performance.md",
+        "skills/frontend-design/reference/marketing-copywriting.md",
+        "skills/frontend-design/reference/micro-failures-and-perceived-quality.md",
+        "skills/frontend-design/reference/motion-design.md",
+        "skills/frontend-design/reference/navigation-menu-ux.md",
+        "skills/frontend-design/reference/notification-and-permissions.md",
+        "skills/frontend-design/reference/offline-and-resilience.md",
+        "skills/frontend-design/reference/onboarding-ux.md",
+        "skills/frontend-design/reference/paywalls-and-upgrade-flows.md",
+        "skills/frontend-design/reference/permissions-and-roles-ux.md",
+        "skills/frontend-design/reference/personality-levers.md",
+        "skills/frontend-design/reference/predictive-and-intent-ui.md",
+        "skills/frontend-design/reference/pricing-and-packaging.md",
+        "skills/frontend-design/reference/react-shadcn-accelerators.md",
+        "skills/frontend-design/reference/README.md",
+        "skills/frontend-design/reference/responsive-design.md",
+        "skills/frontend-design/reference/reviews-and-ratings.md",
+        "skills/frontend-design/reference/scroll-driven-animations.md",
+        "skills/frontend-design/reference/search-and-filtering-ux.md",
+        "skills/frontend-design/reference/search-and-findability.md",
+        "skills/frontend-design/reference/semantic-color.md",
+        "skills/frontend-design/reference/sidebar-and-footer-ux.md",
+        "skills/frontend-design/reference/slider-ux.md",
+        "skills/frontend-design/reference/social-proof-patterns.md",
+        "skills/frontend-design/reference/spacing-system.md",
+        "skills/frontend-design/reference/spatial-design.md",
+        "skills/frontend-design/reference/status-communication.md",
+        "skills/frontend-design/reference/surface-separation.md",
+        "skills/frontend-design/reference/text-hierarchy-and-readability.md",
+        "skills/frontend-design/reference/text-layout-prediction.md",
+        "skills/frontend-design/reference/typography.md",
+        "skills/frontend-design/reference/ux-strategy.md",
+        "skills/frontend-design/reference/ux-writing.md",
+        "skills/frontend-design/reference/view-transitions.md"
+      ],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/frontend-design",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:harden",
+      "source": "better-web-ui",
+      "name": "harden",
+      "title": "Harden",
+      "description": "Improve interface resilience through better error handling, i18n support, text overflow handling, and edge case management, making interfaces robust and production-ready. Use when the user asks to harden, make production-ready, handle edge cases, add error states, or fix overflow and i18n issues.",
+      "skillFile": "skills/harden/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/harden",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:hierarchy",
+      "source": "better-web-ui",
+      "name": "hierarchy",
+      "title": "Hierarchy",
+      "description": "Clarify priority and emphasis by fixing unclear primary actions, competing visual weight, loud section titles, and weak label/value treatment. Use when the user mentions hierarchy, prioritization, too much competition, grayscale confusion, loud headings, or unclear primary actions.",
+      "skillFile": "skills/hierarchy/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/hierarchy",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:imagery",
+      "source": "better-web-ui",
+      "name": "imagery",
+      "title": "Imagery",
+      "description": "Improve how interfaces use photos, screenshots, icons, illustrations, and user-uploaded media so visuals support clarity instead of undermining it. Use when the user mentions images, screenshots, background photos, hero images, icon sizing, user-uploaded media, crops, overlays, or image readability.",
+      "skillFile": "skills/imagery/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/imagery",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:localize",
+      "source": "better-web-ui",
+      "name": "localize",
+      "title": "Localize",
+      "description": "Plan, implement, or improve an internationalization and localization strategy for UI content, formatting, and regional adaptation. Use when the user asks to add i18n, localize, translate, support multiple languages, handle regional formats, manage locale switching, or build a multilingual product.",
+      "skillFile": "skills/localize/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/localize",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:normalize",
+      "source": "better-web-ui",
+      "name": "normalize",
+      "title": "Normalize",
+      "description": "Audit and realign UI to match design system standards, spacing, tokens, and patterns. Use when the user mentions consistency, design drift, mismatched styles, tokens, or wants to bring a feature back in line with the system.",
+      "skillFile": "skills/normalize/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/normalize",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:onboard",
+      "source": "better-web-ui",
+      "name": "onboard",
+      "title": "Onboard",
+      "description": "Design onboarding and activation flows that help users reach value quickly. Use when the user mentions onboarding, getting started, first-time users, activation, aha moments, or new user flows—not when the work is only the empty-state surface itself.",
+      "skillFile": "skills/onboard/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/onboard",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:optimize",
+      "source": "better-web-ui",
+      "name": "optimize",
+      "title": "Optimize",
+      "description": "Diagnose and fix UI performance across loading speed, rendering, animations, images, and bundle size. Use when the user mentions slow, laggy, janky, performance, bundle size, load time, or wants a faster, smoother experience.",
+      "skillFile": "skills/optimize/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/optimize",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:polish",
+      "source": "better-web-ui",
+      "name": "polish",
+      "title": "Polish",
+      "description": "Perform a final quality pass fixing alignment, spacing, consistency, and micro-detail issues before shipping. Use when the work is functionally complete and needs finishing touches—not when the hierarchy, structure, tone, or technical foundation still need major changes.",
+      "skillFile": "skills/polish/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/polish",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:quieter",
+      "source": "better-web-ui",
+      "name": "quieter",
+      "title": "Quieter",
+      "description": "Reduce visual intensity, saturation, and noise while preserving hierarchy and character. Use when the structure is basically sound but the design feels too loud, bold, garish, aggressive, or overstimulating—not when the real problem is structural clutter, too many features, or not enough personality.",
+      "skillFile": "skills/quieter/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/quieter",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:search",
+      "source": "better-web-ui",
+      "name": "search",
+      "title": "Search",
+      "description": "Design or improve search experiences, result presentation, and filtering interfaces. Use when the user asks to add search, redesign search results, improve findability, build autocomplete, add filters, or fix zero-results dead ends.",
+      "skillFile": "skills/search/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/search",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:security-ux",
+      "source": "better-web-ui",
+      "name": "security-ux",
+      "title": "Security Ux",
+      "description": "Design security-conscious interfaces that protect users without frustrating them. Use when the user asks about MFA, password UX, breach notifications, trust indicators, secure forms, account recovery, or making security feel safe rather than scary.",
+      "skillFile": "skills/security-ux/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/security-ux",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:setup",
+      "source": "better-web-ui",
+      "name": "setup",
+      "title": "Setup",
+      "description": "Gather and persist project design context such as audience, brand personality, UX goals, and implementation defaults for future better-web-ui work. Use when starting a project, defining UI direction, or establishing reusable design guidance before other better-web-ui skills.",
+      "skillFile": "skills/setup/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/setup",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:showcase",
+      "source": "better-web-ui",
+      "name": "showcase",
+      "title": "Showcase",
+      "description": "Create standout, technically ambitious interfaces that feel extraordinary through cinematic transitions, advanced motion, heavy rendering, or other high-ambition implementation work. Use when the user wants to wow, impress, go all-out, or push a feature beyond conventional UI polish—not when simple visual confidence or routine cleanup is enough.",
+      "skillFile": "skills/showcase/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/showcase",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:test",
+      "source": "better-web-ui",
+      "name": "test",
+      "title": "Test",
+      "description": "Build or improve a UI testing strategy covering visual regression, interaction testing, and accessibility assertions. Use when the user asks to add tests, set up testing, fix flaky tests, improve test coverage, validate UI behavior, catch visual bugs, or establish confidence in shipping frontend changes.",
+      "skillFile": "skills/test/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/test",
+      "license": "better-web-ui custom source-available license"
+    },
+    {
+      "id": "better-web-ui:typeset",
+      "source": "better-web-ui",
+      "name": "typeset",
+      "title": "Typeset",
+      "description": "Improve UI typography by fixing font choices, type scale, hierarchy, weight, and readability so text feels intentional. Use when the user mentions fonts, typography, type scale, readability, text hierarchy, or sizing that feels off.",
+      "skillFile": "skills/typeset/SKILL.md",
+      "references": [],
+      "sourceUrl": "https://github.com/aladicf/better-web-ui/tree/main/skills/typeset",
+      "license": "better-web-ui custom source-available license"
+    }
+  ],
+  "motionItems": [
+    {
+      "id": "motion-primitives:accordion",
+      "source": "Motion Primitives",
+      "name": "accordion",
+      "title": "Accordion",
+      "description": "A vertically stacked set of collapsible containers allowing users to toggle content visibility. Customize the animation effects with variants and transitions for expanding/collapsing the sections. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "克制产品"
+      ],
+      "files": [
+        "components/core/accordion.tsx"
+      ],
+      "docFile": "app/docs/accordion/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/accordion",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/accordion.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:animated-background",
+      "source": "Motion Primitives",
+      "name": "animated-background",
+      "title": "Animated Background",
+      "description": "Visually highlights selected items by sliding a background into view when hovered over or clicked. This smooth transition helps users focus on the active item, making it ideal for interactive lists, menus, or navigations where clear selection feedback is important. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/animated-background.tsx"
+      ],
+      "docFile": "app/docs/animated-background/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/animated-background",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/animated-background.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:animated-group",
+      "source": "Motion Primitives",
+      "name": "animated-group",
+      "title": "Animated Group",
+      "description": "`A wrapper that adds animated transitions to a group of child elements. It",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/animated-group.tsx"
+      ],
+      "docFile": "app/docs/animated-group/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/animated-group",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/animated-group.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:animated-number",
+      "source": "Motion Primitives",
+      "name": "animated-number",
+      "title": "Animated Number",
+      "description": "Easily animate numbers. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品"
+      ],
+      "files": [
+        "components/core/animated-number.tsx"
+      ],
+      "docFile": "app/docs/animated-number/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/animated-number",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/animated-number.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:border-trail",
+      "source": "Motion Primitives",
+      "name": "border-trail",
+      "title": "Border Trail",
+      "description": "Animated border effect that moves along the edges of its parent container. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/border-trail.tsx"
+      ],
+      "docFile": "app/docs/border-trail/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/border-trail",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/border-trail.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:carousel",
+      "source": "Motion Primitives",
+      "name": "carousel",
+      "title": "Carousel",
+      "description": "A flexible and easy-to-use carousel with customizable navigation and indicators. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/carousel.tsx"
+      ],
+      "docFile": "app/docs/carousel/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/carousel",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/carousel.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:cursor",
+      "source": "Motion Primitives",
+      "name": "cursor",
+      "title": "Cursor",
+      "description": "A custom cursor component with optional spring animations. It can be globally applied to the page or attached specifically to a parent element. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/cursor.tsx"
+      ],
+      "docFile": "app/docs/cursor/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/cursor",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/cursor.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:dialog",
+      "source": "Motion Primitives",
+      "name": "dialog",
+      "title": "Dialog",
+      "description": "A window overlaid on either the primary window or another dialog window, rendering the content underneath inert. Customize the dialog with variants and transition. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "浮层与转换",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/dialog.tsx"
+      ],
+      "docFile": "app/docs/dialog/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/dialog",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/dialog.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:disclosure",
+      "source": "Motion Primitives",
+      "name": "disclosure",
+      "title": "Disclosure",
+      "description": "The Disclosure component allows users to toggle the visibility of content, either collapsed or expanded. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "克制产品"
+      ],
+      "files": [
+        "components/core/disclosure.tsx"
+      ],
+      "docFile": "app/docs/disclosure/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/disclosure",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/disclosure.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:dock",
+      "source": "Motion Primitives",
+      "name": "dock",
+      "title": "Dock",
+      "description": "A versatile UI element that provides a flexible and customizable way to organize and display menu items within your application. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "files": [
+        "components/core/dock.tsx"
+      ],
+      "docFile": "app/docs/dock/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/dock",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/dock.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:glow-effect",
+      "source": "Motion Primitives",
+      "name": "glow-effect",
+      "title": "Glow Effect",
+      "description": "A customizable glow effect with animation modes, colors, blur-sm, and transitions. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "科技高光",
+        "克制产品"
+      ],
+      "files": [
+        "components/core/glow-effect.tsx"
+      ],
+      "docFile": "app/docs/glow-effect/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/glow-effect",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/glow-effect.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:image-comparison",
+      "source": "Motion Primitives",
+      "name": "image-comparison",
+      "title": "Image Comparison",
+      "description": "Interactively compare two images with a draggable slider to reveal differences. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/image-comparison.tsx"
+      ],
+      "docFile": "app/docs/image-comparison/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/image-comparison",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/image-comparison.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:in-view",
+      "source": "Motion Primitives",
+      "name": "in-view",
+      "title": "In View",
+      "description": "Easily animate elements when they come into view. You can apply animations to elements when they enter the viewport, or when they are fully visible. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "滚动交互",
+      "styleTags": [
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/in-view.tsx"
+      ],
+      "docFile": "app/docs/in-view/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/in-view",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/in-view.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:infinite-slider",
+      "source": "Motion Primitives",
+      "name": "infinite-slider",
+      "title": "Infinite Slider",
+      "description": "Infinite scrolling slider component that smoothly loops through its children. It supports both horizontal and vertical directions, with customizable speed and speed on hover. Ideal for creating continuous carousels, marquee displays, or dynamic content showcases. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "滚动交互",
+      "styleTags": [
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/infinite-slider.tsx"
+      ],
+      "docFile": "app/docs/infinite-slider/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/infinite-slider",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/infinite-slider.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:magnetic",
+      "source": "Motion Primitives",
+      "name": "magnetic",
+      "title": "Magnetic",
+      "description": "A magnetic effect for elements that allows them to be attracted to the mouse cursor. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/magnetic.tsx"
+      ],
+      "docFile": "app/docs/magnetic/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/magnetic",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/magnetic.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:morphing-dialog",
+      "source": "Motion Primitives",
+      "name": "morphing-dialog",
+      "title": "Morphing Dialog",
+      "description": "A dialog that uses layout animations to transition content into a focused view. It supports click-outside and escape key functionalities for closing. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "浮层与转换",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/morphing-dialog.tsx"
+      ],
+      "docFile": "app/docs/morphing-dialog/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/morphing-dialog",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/morphing-dialog.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:morphing-popover",
+      "source": "Motion Primitives",
+      "name": "morphing-popover",
+      "title": "Morphing Popover",
+      "description": "A popover that transforms from its trigger into the content using layout animations. It visually morphs instead of appearing as a separate element. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "浮层与转换",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/morphing-popover.tsx"
+      ],
+      "docFile": "app/docs/morphing-popover/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/morphing-popover",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/morphing-popover.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:progressive-blur",
+      "source": "Motion Primitives",
+      "name": "progressive-blur",
+      "title": "Progressive Blur",
+      "description": "A Progressive Blur component creates a layered blur effect using motion and gradient masks. It progressively blurs layers based on direction and intensity, adding visual depth. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "克制产品"
+      ],
+      "files": [
+        "components/core/progressive-blur.tsx"
+      ],
+      "docFile": "app/docs/progressive-blur/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/progressive-blur",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/progressive-blur.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:scroll-progress",
+      "source": "Motion Primitives",
+      "name": "scroll-progress",
+      "title": "Scroll Progress",
+      "description": "Animated scroll progress for your web pages. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "滚动交互",
+      "styleTags": [
+        "克制产品"
+      ],
+      "files": [
+        "components/core/scroll-progress.tsx"
+      ],
+      "docFile": "app/docs/scroll-progress/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/scroll-progress",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/scroll-progress.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:sliding-number",
+      "source": "Motion Primitives",
+      "name": "sliding-number",
+      "title": "Sliding Number",
+      "description": "A component that slides numbers. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品"
+      ],
+      "files": [
+        "components/core/sliding-number.tsx"
+      ],
+      "docFile": "app/docs/sliding-number/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/sliding-number",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/sliding-number.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:spinning-text",
+      "source": "Motion Primitives",
+      "name": "spinning-text",
+      "title": "Spinning Text",
+      "description": "Easily animate text circularly. Customize the animation with variants and transitions. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/spinning-text.tsx"
+      ],
+      "docFile": "app/docs/spinning-text/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/spinning-text",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/spinning-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:spotlight",
+      "source": "Motion Primitives",
+      "name": "spotlight",
+      "title": "Spotlight",
+      "description": "A dynamic spotlight effect component that follows cursor movement. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "科技高光"
+      ],
+      "files": [
+        "components/core/spotlight.tsx"
+      ],
+      "docFile": "app/docs/spotlight/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/spotlight",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/spotlight.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:text-effect",
+      "source": "Motion Primitives",
+      "name": "text-effect",
+      "title": "Text Effect",
+      "description": "Easily animate text content with various effects. You can apply animations per character or per word, and customize the animation effects using custom variants or preset animations. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/text-effect.tsx"
+      ],
+      "docFile": "app/docs/text-effect/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/text-effect",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-effect.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:text-loop",
+      "source": "Motion Primitives",
+      "name": "text-loop",
+      "title": "Text Loop",
+      "description": "Text animation that transitions between multiple items, creating an engaging looping effect. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/text-loop.tsx"
+      ],
+      "docFile": "app/docs/text-loop/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/text-loop",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-loop.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:text-morph",
+      "source": "Motion Primitives",
+      "name": "text-morph",
+      "title": "Text Morph",
+      "description": "Animates text by morphing shared letters between words, creating fluid transitions. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/text-morph.tsx"
+      ],
+      "docFile": "app/docs/text-morph/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/text-morph",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-morph.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:text-roll",
+      "source": "Motion Primitives",
+      "name": "text-roll",
+      "title": "Text Roll",
+      "description": "A text roll component that rotates each character, fully customizable for nice text animations. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/text-roll.tsx"
+      ],
+      "docFile": "app/docs/text-roll/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/text-roll",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-roll.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:text-scramble",
+      "source": "Motion Primitives",
+      "name": "text-scramble",
+      "title": "Text Scramble",
+      "description": "Text animation that transforms text by randomly cycling through characters before settling on the final content, creating an engaging cryptographic effect. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/text-scramble.tsx"
+      ],
+      "docFile": "app/docs/text-scramble/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/text-scramble",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-scramble.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:text-shimmer-wave",
+      "source": "Motion Primitives",
+      "name": "text-shimmer-wave",
+      "title": "Text Shimmer Wave",
+      "description": "Shimmer wave effect on text. Easily adjust the wave effect, spread, duration, and more. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/text-shimmer-wave.tsx"
+      ],
+      "docFile": "app/docs/text-shimmer-wave/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/text-shimmer-wave",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-shimmer-wave.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:text-shimmer",
+      "source": "Motion Primitives",
+      "name": "text-shimmer",
+      "title": "Text Shimmer",
+      "description": "Shimmer effect on text. Easily adjust the duration and the spread of the shimmer effect. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "files": [
+        "components/core/text-shimmer.tsx"
+      ],
+      "docFile": "app/docs/text-shimmer/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/text-shimmer",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/text-shimmer.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:tilt",
+      "source": "Motion Primitives",
+      "name": "tilt",
+      "title": "Tilt",
+      "description": "3D tilt effect that responds to mouse movement, enhancing UI elements with a dynamic depth effect, customizable rotation factors and spring options. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "空间拟物"
+      ],
+      "files": [
+        "components/core/tilt.tsx"
+      ],
+      "docFile": "app/docs/tilt/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/tilt",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/tilt.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:toolbar-dynamic",
+      "source": "Motion Primitives",
+      "name": "toolbar-dynamic",
+      "title": "Toolbar Dynamic",
+      "description": "Adjusts width dynamically to accommodate varying tool requirements. Starts small and expands to offer more tools as needed. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/toolbar-dynamic.tsx"
+      ],
+      "docFile": "app/docs/toolbar-dynamic/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/toolbar-dynamic",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/toolbar-dynamic.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:toolbar-expandable",
+      "source": "Motion Primitives",
+      "name": "toolbar-expandable",
+      "title": "Toolbar Expandable",
+      "description": "Changes height based on content, expanding to display more tools and shrinking to save space. Keeps your screen organized and efficient. Built for React, Next.js, and Tailwind CSS.",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/toolbar-expandable.tsx"
+      ],
+      "docFile": "app/docs/toolbar-expandable/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/toolbar-expandable",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/toolbar-expandable.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "motion-primitives:transition-panel",
+      "source": "Motion Primitives",
+      "name": "transition-panel",
+      "title": "Transition Panel",
+      "description": "Easy way to switch between different pieces of content with enter and exit animations. It",
+      "interactionType": "浮层与转换",
+      "styleTags": [
+        "通用"
+      ],
+      "files": [
+        "components/core/transition-panel.tsx"
+      ],
+      "docFile": "app/docs/transition-panel/page.mdx",
+      "docsUrl": "https://motion-primitives.com/docs/transition-panel",
+      "sourceUrl": "https://github.com/ibelick/motion-primitives/blob/main/components/core/transition-panel.tsx",
+      "license": "MIT"
+    }
+  ],
+  "magicItems": [
+    {
+      "id": "magicui:magic-card",
+      "source": "Magic UI",
+      "name": "magic-card",
+      "title": "Magic Card",
+      "description": "A spotlight effect that follows your mouse cursor and highlights borders on hover.",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/magic-card.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/magic-card",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/magic-card.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:android",
+      "source": "Magic UI",
+      "name": "android",
+      "title": "Android",
+      "description": "A mockup of an Android device.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "空间拟物"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/android.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/android",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/android.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:warp-background",
+      "source": "Magic UI",
+      "name": "warp-background",
+      "title": "Warp Background",
+      "description": "A card with a time warping background effect.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/warp-background.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/warp-background",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/warp-background.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:line-shadow-text",
+      "source": "Magic UI",
+      "name": "line-shadow-text",
+      "title": "Line Shadow Text",
+      "description": "A text component with a moving line shadow.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/line-shadow-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/line-shadow-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/line-shadow-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:aurora-text",
+      "source": "Magic UI",
+      "name": "aurora-text",
+      "title": "Aurora Text",
+      "description": "A beautiful aurora text effect",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "科技高光",
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/aurora-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/aurora-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/aurora-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:morphing-text",
+      "source": "Magic UI",
+      "name": "morphing-text",
+      "title": "Morphing Text",
+      "description": "A dynamic text morphing component for Magic UI.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/morphing-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/morphing-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/morphing-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:scroll-progress",
+      "source": "Magic UI",
+      "name": "scroll-progress",
+      "title": "Scroll Progress",
+      "description": "Animated Scroll Progress for your pages",
+      "interactionType": "滚动交互",
+      "styleTags": [
+        "克制产品"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/scroll-progress.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/scroll-progress",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/scroll-progress.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:lens",
+      "source": "Magic UI",
+      "name": "lens",
+      "title": "Lens",
+      "description": "A interactive component that enables zooming into images, videos and other elements.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/lens.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/lens",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/lens.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:pointer",
+      "source": "Magic UI",
+      "name": "pointer",
+      "title": "Pointer",
+      "description": "A component that displays a pointer when hovering over an element",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/pointer.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/pointer",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/pointer.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:smooth-cursor",
+      "source": "Magic UI",
+      "name": "smooth-cursor",
+      "title": "Smooth Cursor",
+      "description": "A customizable, physics-based smooth cursor animation component with spring animations and rotation effects",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "framer-motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/smooth-cursor.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/smooth-cursor",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/smooth-cursor.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:progressive-blur",
+      "source": "Magic UI",
+      "name": "progressive-blur",
+      "title": "Progressive Blur",
+      "description": "The Progressive Blur component adds a smooth blur gradient effect to scrollable content, indicating more content below or above.",
+      "interactionType": "滚动交互",
+      "styleTags": [
+        "克制产品"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/progressive-blur.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/progressive-blur",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/progressive-blur.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:neon-gradient-card",
+      "source": "Magic UI",
+      "name": "neon-gradient-card",
+      "title": "Neon Gradient Card",
+      "description": "A beautiful neon card effect",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/neon-gradient-card.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/neon-gradient-card",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/neon-gradient-card.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:meteors",
+      "source": "Magic UI",
+      "name": "meteors",
+      "title": "Meteors",
+      "description": "A meteor shower effect.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/meteors.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/meteors",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/meteors.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:grid-pattern",
+      "source": "Magic UI",
+      "name": "grid-pattern",
+      "title": "Grid Pattern",
+      "description": "A background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/grid-pattern.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/grid-pattern",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/grid-pattern.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:striped-pattern",
+      "source": "Magic UI",
+      "name": "striped-pattern",
+      "title": "Striped Pattern",
+      "description": "A background striped pattern made with SVGs, fully customizable using Tailwind CSS.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/striped-pattern.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/striped-pattern",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/striped-pattern.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:interactive-grid-pattern",
+      "source": "Magic UI",
+      "name": "interactive-grid-pattern",
+      "title": "Interactive Grid Pattern",
+      "description": "A interactive background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/interactive-grid-pattern.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/interactive-grid-pattern",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/interactive-grid-pattern.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:dot-pattern",
+      "source": "Magic UI",
+      "name": "dot-pattern",
+      "title": "Dot Pattern",
+      "description": "A background dot pattern made with SVGs, fully customizable using Tailwind CSS.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/dot-pattern.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/dot-pattern",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/dot-pattern.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:flickering-grid",
+      "source": "Magic UI",
+      "name": "flickering-grid",
+      "title": "Flickering Grid",
+      "description": "A flickering grid background made with SVGs, fully customizable using Tailwind CSS.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/flickering-grid.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/flickering-grid",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/flickering-grid.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:hero-video-dialog",
+      "source": "Magic UI",
+      "name": "hero-video-dialog",
+      "title": "Hero Video Dialog",
+      "description": "A hero video dialog component.",
+      "interactionType": "浮层与转换",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/hero-video-dialog.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/hero-video-dialog",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/hero-video-dialog.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:code-comparison",
+      "source": "Magic UI",
+      "name": "code-comparison",
+      "title": "Code Comparison",
+      "description": "A component which compares two code snippets.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "shiki",
+        "next-themes"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/code-comparison.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/code-comparison",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/code-comparison.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:script-copy-btn",
+      "source": "Magic UI",
+      "name": "script-copy-btn",
+      "title": "Script Copy Button",
+      "description": "Copy code to clipboard",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion",
+        "shiki",
+        "next-themes"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        "registry/magicui/script-copy-btn.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/script-copy-btn",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/script-copy-btn.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:marquee",
+      "source": "Magic UI",
+      "name": "marquee",
+      "title": "Marquee",
+      "description": "An infinite scrolling component that can be used to display text, images, or videos.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/marquee.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/marquee",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/marquee.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:glyph-matrix",
+      "source": "Magic UI",
+      "name": "glyph-matrix",
+      "title": "Glyph Matrix",
+      "description": "An animated grid of subtly shifting glyphs with fade effect and theme support.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/glyph-matrix.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/glyph-matrix",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/glyph-matrix.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:globe",
+      "source": "Magic UI",
+      "name": "globe",
+      "title": "Globe",
+      "description": "An autorotating, interactive, and highly performant globe made using WebGL.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "空间拟物"
+      ],
+      "dependencies": [
+        "cobe",
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/globe.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/globe",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/globe.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:shimmer-button",
+      "source": "Magic UI",
+      "name": "shimmer-button",
+      "title": "Shimmer Button",
+      "description": "A button with a shimmering light which travels around the perimeter.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/shimmer-button.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/shimmer-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/shimmer-button.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:tweet-card",
+      "source": "Magic UI",
+      "name": "tweet-card",
+      "title": "Tweet Card",
+      "description": "A card that displays a tweet with the author's name, handle, and profile picture.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "react-tweet"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/tweet-card.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/tweet-card",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/tweet-card.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:client-tweet-card",
+      "source": "Magic UI",
+      "name": "client-tweet-card",
+      "title": "Client Tweet Card",
+      "description": "A client-side version of the tweet card that displays a tweet with the author's name, handle, and profile picture.",
+      "interactionType": "卡片与展示",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "react-tweet"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/client-tweet-card.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/client-tweet-card",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/client-tweet-card.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:bento-grid",
+      "source": "Magic UI",
+      "name": "bento-grid",
+      "title": "Bento Grid",
+      "description": "Bento grid is a layout used to showcase the features of a product in a simple and elegant way.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [
+        "@radix-ui/react-icons"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        "registry/magicui/bento-grid.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/bento-grid",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/bento-grid.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:particles",
+      "source": "Magic UI",
+      "name": "particles",
+      "title": "Particles",
+      "description": "Particles are a fun way to add some visual flair to your website. They can be used to create a sense of depth, movement, and interactivity.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/particles.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/particles",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/particles.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:number-ticker",
+      "source": "Magic UI",
+      "name": "number-ticker",
+      "title": "Number Ticker",
+      "description": "Animate numbers to count up or down to a target number",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/number-ticker.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/number-ticker",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/number-ticker.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:ripple",
+      "source": "Magic UI",
+      "name": "ripple",
+      "title": "Ripple",
+      "description": "An animated ripple effect typically used behind elements to emphasize them.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/ripple.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/ripple",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/ripple.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:retro-grid",
+      "source": "Magic UI",
+      "name": "retro-grid",
+      "title": "Retro Grid",
+      "description": "An animated scrolling retro grid effect",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/retro-grid.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/retro-grid",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/retro-grid.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-list",
+      "source": "Magic UI",
+      "name": "animated-list",
+      "title": "Animated List",
+      "description": "A list that animates each item in sequence with a delay. Used to showcase notifications or events on your landing page.",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-list.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-list",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-list.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-shiny-text",
+      "source": "Magic UI",
+      "name": "animated-shiny-text",
+      "title": "Animated Shiny Text",
+      "description": "A light glare effect which pans across text making it appear as if it is shimmering.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-shiny-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-shiny-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-shiny-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-grid-pattern",
+      "source": "Magic UI",
+      "name": "animated-grid-pattern",
+      "title": "Animated Grid Pattern",
+      "description": "A animated background grid pattern made with SVGs, fully customizable using Tailwind CSS.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-grid-pattern.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-grid-pattern",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-grid-pattern.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:border-beam",
+      "source": "Magic UI",
+      "name": "border-beam",
+      "title": "Border Beam",
+      "description": "An animated beam of light which travels along the border of its container.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/border-beam.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/border-beam",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/border-beam.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-beam",
+      "source": "Magic UI",
+      "name": "animated-beam",
+      "title": "Animated Beam",
+      "description": "An animated beam of light which travels along a path. Useful for showcasing the integration features of a website.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-beam.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-beam",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-beam.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:text-reveal",
+      "source": "Magic UI",
+      "name": "text-reveal",
+      "title": "Text Reveal",
+      "description": "Fade in text as you scroll down the page.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/text-reveal.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/text-reveal",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/text-reveal.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:hyper-text",
+      "source": "Magic UI",
+      "name": "hyper-text",
+      "title": "Hyper Text",
+      "description": "A text animation that scrambles letters before revealing the final text.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/hyper-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/hyper-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/hyper-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-gradient-text",
+      "source": "Magic UI",
+      "name": "animated-gradient-text",
+      "title": "Animated Gradient Text",
+      "description": "An animated gradient background which transitions between colors for text.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-gradient-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-gradient-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-gradient-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:orbiting-circles",
+      "source": "Magic UI",
+      "name": "orbiting-circles",
+      "title": "Orbiting Circles",
+      "description": "A collection of circles which move in orbit along a circular path",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/orbiting-circles.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/orbiting-circles",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/orbiting-circles.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:dock",
+      "source": "Magic UI",
+      "name": "dock",
+      "title": "Dock",
+      "description": "An implementation of the MacOS dock using react + tailwindcss + motion",
+      "interactionType": "导航与工具",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/dock.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/dock",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/dock.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:word-rotate",
+      "source": "Magic UI",
+      "name": "word-rotate",
+      "title": "Word Rotate",
+      "description": "A vertical rotation of words",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/word-rotate.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/word-rotate",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/word-rotate.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:avatar-circles",
+      "source": "Magic UI",
+      "name": "avatar-circles",
+      "title": "Avatar Circles",
+      "description": "Overlapping circles of avatars.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/avatar-circles.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/avatar-circles",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/avatar-circles.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:typing-animation",
+      "source": "Magic UI",
+      "name": "typing-animation",
+      "title": "Typing Animation",
+      "description": "Characters appearing in typed animation",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/typing-animation.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/typing-animation",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/typing-animation.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:sparkles-text",
+      "source": "Magic UI",
+      "name": "sparkles-text",
+      "title": "Sparkles Text",
+      "description": "A dynamic text that generates continuous sparkles with smooth transitions, perfect for highlighting text with animated stars.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/sparkles-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/sparkles-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/sparkles-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:spinning-text",
+      "source": "Magic UI",
+      "name": "spinning-text",
+      "title": "Spinning Text",
+      "description": "The Spinning Text component animates text in a circular motion with customizable speed, direction, color, and transitions for dynamic and engaging effects.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/spinning-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/spinning-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/spinning-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:flip-text",
+      "source": "Magic UI",
+      "name": "flip-text",
+      "title": "Flip Text",
+      "description": "Text flipping character animation",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/flip-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/flip-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/flip-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:comic-text",
+      "source": "Magic UI",
+      "name": "comic-text",
+      "title": "Comic Text",
+      "description": "Comic text animation",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/comic-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/comic-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/comic-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:icon-cloud",
+      "source": "Magic UI",
+      "name": "icon-cloud",
+      "title": "Icon Cloud",
+      "description": "An interactive 3D tag cloud component",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "空间拟物"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/icon-cloud.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/icon-cloud",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/icon-cloud.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:text-animate",
+      "source": "Magic UI",
+      "name": "text-animate",
+      "title": "Text Animate",
+      "description": "A text animation component that animates text using a variety of different animations.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/text-animate.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/text-animate",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/text-animate.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:scroll-based-velocity",
+      "source": "Magic UI",
+      "name": "scroll-based-velocity",
+      "title": "Scroll Based Velocity",
+      "description": "Scrolling text whose speed changes based on scroll speed",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/scroll-based-velocity.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/scroll-based-velocity",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/scroll-based-velocity.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:scratch-to-reveal",
+      "source": "Magic UI",
+      "name": "scratch-to-reveal",
+      "title": "Scratch To Reveal",
+      "description": "The ScratchToReveal component creates an interactive scratch-off effect with customizable dimensions and animations, revealing hidden content beneath.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "趣味触感",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/scratch-to-reveal.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/scratch-to-reveal",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/scratch-to-reveal.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:shiny-button",
+      "source": "Magic UI",
+      "name": "shiny-button",
+      "title": "Shiny Button",
+      "description": "A shiny button component with dynamic styles in the dark mode or light mode.",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/shiny-button.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/shiny-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/shiny-button.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:box-reveal",
+      "source": "Magic UI",
+      "name": "box-reveal",
+      "title": "Box Reveal Animation",
+      "description": "Sliding box animation that reveals text behind it.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/box-reveal.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/box-reveal",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/box-reveal.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:shine-border",
+      "source": "Magic UI",
+      "name": "shine-border",
+      "title": "Shine Border",
+      "description": "Shine border is an animated background border effect.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/shine-border.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/shine-border",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/shine-border.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-circular-progress-bar",
+      "source": "Magic UI",
+      "name": "animated-circular-progress-bar",
+      "title": "Animated Circular Progress Bar",
+      "description": "Animated Circular Progress Bar is a component that displays a circular gauge with a percentage value.",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "克制产品"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-circular-progress-bar.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-circular-progress-bar",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-circular-progress-bar.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:confetti",
+      "source": "Magic UI",
+      "name": "confetti",
+      "title": "Confetti",
+      "description": "Confetti animations are best used to delight your users when something special happens",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "dependencies": [
+        "canvas-confetti",
+        "@types/canvas-confetti"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        "registry/magicui/confetti.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/confetti",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/confetti.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-subscribe-button",
+      "source": "Magic UI",
+      "name": "animated-subscribe-button",
+      "title": "Animated Subscribe Button",
+      "description": "An animated subscribe button useful for showing a micro animation from intial to final result.",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-subscribe-button.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-subscribe-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-subscribe-button.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:cool-mode",
+      "source": "Magic UI",
+      "name": "cool-mode",
+      "title": "Cool Mode",
+      "description": "Cool mode effect for buttons, links, and other DOMs",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/cool-mode.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/cool-mode",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/cool-mode.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:pulsating-button",
+      "source": "Magic UI",
+      "name": "pulsating-button",
+      "title": "Pulsating Button",
+      "description": "An animated pulsating button useful for capturing attention of users.",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/pulsating-button.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/pulsating-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/pulsating-button.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:ripple-button",
+      "source": "Magic UI",
+      "name": "ripple-button",
+      "title": "Ripple Button",
+      "description": "An animated button with ripple useful for user engagement.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "趣味触感"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/ripple-button.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/ripple-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/ripple-button.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:file-tree",
+      "source": "Magic UI",
+      "name": "file-tree",
+      "title": "File Tree",
+      "description": "A component used to showcase the folder and file structure of a directory.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/file-tree.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/file-tree",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/file-tree.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:blur-fade",
+      "source": "Magic UI",
+      "name": "blur-fade",
+      "title": "Blur Fade",
+      "description": "Blur fade in and out animation. Used to smoothly fade in and out content.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "克制产品"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/blur-fade.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/blur-fade",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/blur-fade.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:safari",
+      "source": "Magic UI",
+      "name": "safari",
+      "title": "Safari",
+      "description": "A safari browser mockup to showcase your website.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "空间拟物"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/safari.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/safari",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/safari.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:iphone-15-pro",
+      "source": "Magic UI",
+      "name": "iphone-15-pro",
+      "title": "iPhone 15 Pro",
+      "description": "A mockup of the iPhone 15 Pro",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "空间拟物"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/iphone-15-pro.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/iphone-15-pro",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/iphone-15-pro.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:rainbow-button",
+      "source": "Magic UI",
+      "name": "rainbow-button",
+      "title": "Rainbow Button",
+      "description": "An animated button with a rainbow effect.",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/rainbow-button.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/rainbow-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/rainbow-button.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:interactive-hover-button",
+      "source": "Magic UI",
+      "name": "interactive-hover-button",
+      "title": "Interactive Hover Button",
+      "description": "",
+      "interactionType": "反馈与状态",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/interactive-hover-button.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/interactive-hover-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/interactive-hover-button.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:terminal",
+      "source": "Magic UI",
+      "name": "terminal",
+      "title": "Terminal",
+      "description": "A terminal component",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/terminal.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/terminal",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/terminal.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:video-text",
+      "source": "Magic UI",
+      "name": "video-text",
+      "title": "Video Text",
+      "description": "A component that displays text with a video playing in the background.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/video-text.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/video-text",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/video-text.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:pixel-image",
+      "source": "Magic UI",
+      "name": "pixel-image",
+      "title": "Pixel Image",
+      "description": "A component that displays an image with a pixelated effect, creating a retro aesthetic.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/pixel-image.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/pixel-image",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/pixel-image.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:highlighter",
+      "source": "Magic UI",
+      "name": "highlighter",
+      "title": "Highlighter",
+      "description": "A text highlighter that mimics the effect of a human-drawn marker stroke.",
+      "interactionType": "文字动效",
+      "styleTags": [
+        "克制产品",
+        "编辑叙事"
+      ],
+      "dependencies": [
+        "rough-notation"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/highlighter.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/highlighter",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/highlighter.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:arc-timeline",
+      "source": "Magic UI",
+      "name": "arc-timeline",
+      "title": "Arc Timeline",
+      "description": "A curved timeline that elegantly visualizes key milestones, perfect for Web3 and AI roadmaps.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/arc-timeline.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/arc-timeline",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/arc-timeline.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:animated-theme-toggler",
+      "source": "Magic UI",
+      "name": "animated-theme-toggler",
+      "title": "Theme Toggler",
+      "description": "A component for theme changing animation.",
+      "interactionType": "其他组件",
+      "styleTags": [
+        "通用"
+      ],
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/animated-theme-toggler.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/animated-theme-toggler",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/animated-theme-toggler.tsx",
+      "license": "MIT"
+    },
+    {
+      "id": "magicui:grid-beams",
+      "source": "Magic UI",
+      "name": "grid-beams",
+      "title": "Grid Beams",
+      "description": "A dynamic grid background with animated light beams rays and grid patterns.",
+      "interactionType": "背景氛围",
+      "styleTags": [
+        "科技高光"
+      ],
+      "dependencies": [
+        "motion"
+      ],
+      "registryDependencies": [],
+      "files": [
+        "registry/magicui/grid-beams.tsx"
+      ],
+      "docsUrl": "https://magicui.design/docs/components/grid-beams",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/tree/main/registry/magicui/grid-beams.tsx",
+      "license": "MIT"
+    }
+  ],
+  "media": [
+    {
+      "source": "motion",
+      "file": "app/opengraph-image.jpg",
+      "extension": ".jpg",
+      "bytes": 35379
+    },
+    {
+      "source": "motion",
+      "file": "app/twitter-image.jpg",
+      "extension": ".jpg",
+      "bytes": 35379
+    },
+    {
+      "source": "motion",
+      "file": "public/apple_music_logo.svg",
+      "extension": ".svg",
+      "bytes": 3471
+    },
+    {
+      "source": "motion",
+      "file": "public/chrome_logo.svg",
+      "extension": ".svg",
+      "bytes": 5561
+    },
+    {
+      "source": "motion",
+      "file": "public/eb-27-lamp-edouard-wilfrid-buquet.jpg",
+      "extension": ".jpg",
+      "bytes": 35667
+    },
+    {
+      "source": "motion",
+      "file": "public/gucci_logo.svg",
+      "extension": ".svg",
+      "bytes": 1898
+    },
+    {
+      "source": "motion",
+      "file": "public/jquery_logo.svg",
+      "extension": ".svg",
+      "bytes": 3949
+    },
+    {
+      "source": "motion",
+      "file": "public/mp_dark.png",
+      "extension": ".png",
+      "bytes": 84305
+    },
+    {
+      "source": "motion",
+      "file": "public/mp_light.png",
+      "extension": ".png",
+      "bytes": 80325
+    },
+    {
+      "source": "motion",
+      "file": "public/national_geographic_logo.svg",
+      "extension": ".svg",
+      "bytes": 3660
+    },
+    {
+      "source": "motion",
+      "file": "public/nintendo_logo.svg",
+      "extension": ".svg",
+      "bytes": 3270
+    },
+    {
+      "source": "motion",
+      "file": "public/prada_logo.svg",
+      "extension": ".svg",
+      "bytes": 3408
+    },
+    {
+      "source": "motion",
+      "file": "public/sony_logo.svg",
+      "extension": ".svg",
+      "bytes": 2457
+    },
+    {
+      "source": "motion",
+      "file": "public/strava_logo.svg",
+      "extension": ".svg",
+      "bytes": 2696
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/app/apple-icon.png",
+      "extension": ".png",
+      "bytes": 38767
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/app/icon.png",
+      "extension": ".png",
+      "bytes": 38767
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/app/icon.svg",
+      "extension": ".svg",
+      "bytes": 3981
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/android-chrome-192x192.png",
+      "extension": ".png",
+      "bytes": 23901
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/android-chrome-512x512.png",
+      "extension": ".png",
+      "bytes": 130788
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/pixel-image-demo.jpg",
+      "extension": ".jpg",
+      "bytes": 900059
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/placeholder-dark.svg",
+      "extension": ".svg",
+      "bytes": 3252
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/placeholder.svg",
+      "extension": ".svg",
+      "bytes": 3252
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/showcase/aryankarma.png",
+      "extension": ".png",
+      "bytes": 476913
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/showcase/d1rshan.png",
+      "extension": ".png",
+      "bytes": 672800
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/showcase/miles.png",
+      "extension": ".png",
+      "bytes": 1146117
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/showcase/pulpsense.png",
+      "extension": ".png",
+      "bytes": 1623623
+    },
+    {
+      "source": "magic",
+      "file": "apps/www/public/showcase/robot-toast.png",
+      "extension": ".png",
+      "bytes": 111508
+    }
+  ]
+}
