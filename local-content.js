@@ -9,7 +9,7 @@
  * Both are loaded before the app boots so the UI never renders half-empty panels,
  * and their absence must never break the page.
  */
-const LOCAL_BOOT = ['interactive-previews.js', 'app.js', 'personal.js', 'vendor/marked.js', 'vendor/purify.js', 'tags.js', 'local-upload.js', 'reading.js', 'playbook-ui.js', 'share.js'];
+const LOCAL_BOOT = ['app.js', 'personal.js', 'vendor/marked.js', 'vendor/purify.js', 'tags.js', 'local-upload.js', 'reading.js', 'playbook-ui.js', 'share.js'];
 const LOCAL_OPTIONAL = ['data/local/playbook.js', 'data/local/supplements.js'];
 const PLAYBOOK_HINT = '设计手册正文不随公开仓库分发。本地执行 node tools/sync-playbook.mjs 后刷新即可恢复技能与参考。';
 
